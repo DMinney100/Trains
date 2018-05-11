@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            TRAINS!
+        </title>
+        <script src="trains.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" href="train.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <header>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Trains</h1>
+                    <p class="lead">Here you will find the most updated train schedule possible</p>
+                </div>
+        </header>
+
+        <table class="table table-striped">
+            
+                <thead>
+                  <tr>
+                      <h4>Current Train Schedule</h4>
+                  </tr>  
+                  <tr>
+                    <th scope="col">Train Name</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency</th>
+                    <th scope="col">Next Arrival</th>
+                    <th scope="col">Minutes Away</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Trenton Express</td>
+                    <td>Trenton</td>
+                    <td>25</td>
+                    <td>5:35pm</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>Oregon Trail</td>
+                    <td>Salem, Oregon</td>
+                    <td>3600</td>
+                    <td>5:35pm</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>Midnight Carriage</td>
+                    <td>Philly</td>
+                    <td>15</td>
+                    <td>5:35pm</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>Sing Sing Caravan</td>
+                    <td>ATL</td>
+                    <td>45</td>
+                    <td>5:35pm</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>Boston Bus</td>
+                    <td>Boston</td>
+                    <td>25</td>
+                    <td>5:35pm</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>California Caravan</td>
+                    <td>San Francisco</td>
+                    <td>25</td>
+                    <td>5:35pm</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>Analben's Train</td>
+                    <td>Florida</td>
+                    <td>25</td>
+                    <td>5:35pm</td>
+                    <td>10</td>
+                </tr>
+
+            </tbody>
+        </table>
+       <container>
+        <ul class="list-group">
+            
+            <li class="list-group-item active">Add Train</li>
+            <li class="list-group-item">Train Name</li>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Ex: Flying Scotsman</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <li class="list-group-item">Destination</li>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Ex: London</span>
+                </div>
+                <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <li class="list-group-item">Fist Train Time</li>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Ex: 2400</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <li class="list-group-item">Frequency (mins)</li>
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Ex: 12 mins</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <button type="button" class="btn btn-primary btn-sm">Submit Train</button>        
+        </ul>
+    </container>
+</body>
+</html>
